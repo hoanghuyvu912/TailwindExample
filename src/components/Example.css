@@ -1,0 +1,99 @@
+#button_1 {
+  border: 1px solid rgb(91, 192, 226);
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background: rgb(91, 192, 226);
+  border-radius: 20px;
+  height: 50px;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+  align-items: center;
+  text-size-adjust: 16;
+  transition: all 0.5s;
+}
+
+#button_1:hover {
+  background: blue;
+}
+
+#section_2 button {
+  margin-top: 12px;
+  border: 1px solid white;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  height: 50px;
+  width: 100px;
+  margin-left: 12px;
+  margin-right: 12px;
+  transition: all 0.5s;
+}
+
+#section_2 #button_3 {
+  background: red;
+}
+
+#section_2 #button_3:hover {
+  background: rgb(117, 37, 37);
+}
+
+#section_2 #button_4 {
+  background: green;
+}
+
+#section_2 #button_4:hover {
+  background: rgb(64, 192, 64);
+}
+
+#section_2 #button_5 {
+  background: blue;
+}
+
+#section_2 #button_5:hover {
+  background: rgb(111, 111, 204);
+}
+
+#section_2 #button_6 {
+  background: yellow;
+}
+
+#section_2 #button_6:hover {
+  background: rgb(221, 221, 111);
+}
+
+#section_4 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#section_4 .paragraph {
+  color: black;
+  font-size: 1rem !important;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  #section_4 {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #section_4 {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #section_4 {
+    grid-template-columns: auto;
+  }
+}
